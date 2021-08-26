@@ -1,0 +1,71 @@
+.button-14-BFJ{
+  transition: 0.2s;
+}
+.button-14-BFJ:hover{
+  padding-bottom: 5px;
+  transition: 0.2;
+  animation-name: pride;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: linear;
+}
+#app-mount .privateChannels-1nO12o .searchBar-6Kv8R2 {
+  position: absolute;
+  bottom: 20px;
+  right: 5px;
+  height: 40px;
+  width: 42px;
+  border: none;
+  border-radius: 40px;
+  background: linear-gradient(to bottom right, var(--main-color, #323232), var(--hover-color, #323232));
+  box-shadow: 2px 10px 10px var(--shadow, rgba(0, 0, 0, 0.399)) !important;
+  overflow: hidden;
+  cursor: pointer;
+  transition: all .4s ease-in-out;
+  pointer-events: all;
+  padding: 0;
+}
+
+#app-mount .privateChannels-1nO12o .searchBar-6Kv8R2 .searchBarComponent-32dTOx {
+  background-color: transparent !important;
+}
+
+.privateChannels-1nO12o .searchBar-6Kv8R2 .inner-3ErfOT {
+  height: 100%;
+  width: 100%;
+}
+
+#app-mount .privateChannels-1nO12o .searchBar-6Kv8R2 .searchBarComponent-32dTOx::after {
+  content: '';
+  position: absolute;
+  height: 100%;
+  width: 50px;
+  bottom: 0;
+  right: 0;
+  background: url(https://discordapp.com/assets/4d254296157bb8927b7d53ed59beb0d8.svg) center/20px no-repeat;
+  pointer-events: none;
+}
+#app-mount .privateChannels-1nO12o .searchBar-6Kv8R2 .searchBarComponent-32dTOx::before {
+  content: 'Search Direct Messages';
+  position: absolute;
+  top: 50%;
+  transform: translateY(-25%);
+  width: 180px;
+  bottom: 0;
+  right: 0vw;
+  color: rgb(255, 255, 255);
+  opacity: .5;
+  font-size: 12px;
+  line-height: 100%;
+  transition: all 1s ease-in-out;
+  pointer-events: none;
+}
+
+#app-mount .privateChannels-1nO12o .searchBar-6Kv8R2 .searchBarComponent-32dTOx {
+  color: transparent;
+}
+
+#app-mount .privateChannels-1nO12o .searchBar-6Kv8R2:hover {
+  width: 200px;
+}
